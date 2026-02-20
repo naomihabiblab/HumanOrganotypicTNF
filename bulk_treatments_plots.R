@@ -32,7 +32,7 @@ p_lda <- ggplot(lda_df, aes(x = LD1, y = LD2, color = Treatment)) +
   stat_ellipse(level = 0.68, alpha = 0.3) +
   theme_classic(base_size = 14) +
   labs(x = "LD1", y = "LD2") +
-  theme(legend.position = "right", legend.title = element_blank())
+  theme(legend.position = "right", legend.title = element_blank()) 
 
 # =============================================================================
 # 2. WGCNA Program-Trait Heatmap (Panel B) 
