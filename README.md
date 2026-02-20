@@ -1,5 +1,5 @@
 # Adult human _ex vivo_ brain slices for dissecting glial biology and multicellular communication
-“This repository contains analysis scripts used to process bulk RNA‑seq and snRNA-seq data from adult human organotypic brain slice cultures, perform network and signaling analyses, and generate the figures in the manuscript.”
+This repository contains analysis scripts used to process bulk RNA‑seq and snRNA-seq data from adult human organotypic brain slice cultures, perform network and signaling analyses, and generate the figures in the manuscript.
 
 # Overview of analyses
 The analyses in this repository cover:
