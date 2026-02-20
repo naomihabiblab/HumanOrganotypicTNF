@@ -17,13 +17,12 @@ library(Nebulosa)
 # ---- CONFIGURATION ----
 # Update these paths to your data
 f_tnf <- "..."                    # Main TNF object folder
-f_tnf_de <- "data/de_results/"          # DE results folder
+f_tnf_de <- ".../de_results/"          # DE results folder
 out_tnf_f <- "figures/"                 # Output figures folder
 
 # Create output directory
 dir.create(out_tnf_f, recursive = TRUE, showWarnings = FALSE)
 
-# Color palettes (from your script)
 new_colors_celltype <- c("#1F78B4","#E69F00","#B2DF8A","#33A02C","#A6CEE3",
                          "#CC6677","#D694B9","#FDBF6F","#AA4499")
 colors_tnf_nb_umap <- c("Steel Blue", "Sandy Brown")
@@ -136,7 +135,7 @@ figure2c_shared_heatmap <- function(tnf, des.tnf.vs.ctr) {
                 fontsize_row = 10,
                 fontsize_col = 11,
                 angle_col = 0,
-                main = "C. Shared TNF Response Genes",
+                main = "Shared TNF Response Genes",
                 annotation_col = annotation_col,
                 annotation_colors = annotation_colors,
                 color = colorRampPalette(c("white", "navy"))(100),
